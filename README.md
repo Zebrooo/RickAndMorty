@@ -1,5 +1,5 @@
 # RickAndMorty
 для того чтобы воспользоваться проектом нужно:
-Fork
-npm i в папке client
-npm start в папке client
+1 Fork проекта
+2 npm i в папке client
+3 npm start в папке client
