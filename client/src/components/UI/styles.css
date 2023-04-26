@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  color: #2ba11c;
+  background: url('../../../public/vulkan.jpg') no-repeat center center
+    fixed;
+  background-size: cover;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  border: 3px solid lightgray;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+
+.table th,
+.table td {
+  padding: 8vh;
+  width: 20vh;
+  text-align: center;
+}
+
+.table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table td img {
+  border-radius: 50%;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+button:hover {
+  background-color: #5dad60;
+}
+
+.nocontent {
+  border-radius: 15%;
+}
+
+.post__id {
+  width: 3vh;
+}
